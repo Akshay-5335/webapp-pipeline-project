@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Starting install phase"
+  pre_build:
+    commands:
+      - echo "Starting pre_build phase"
+      - chmod +x build.sh
+  build:
+    commands:
+      - echo "Starting build phase"
+      - sh -x build.sh
+
+artifacts:
+  files:
+    - '**/*'
+

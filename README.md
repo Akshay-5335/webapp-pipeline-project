@@ -1,4 +1,4 @@
-# Standalone Pipeline Project
+# L4DX Standalone Pipeline Project
 
 This project automates deployment of a 2-tier web application using AWS CodePipeline, CodeBuild, and EC2 instances.
 
